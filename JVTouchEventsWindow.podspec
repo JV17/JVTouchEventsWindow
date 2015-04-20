@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JVTouchEventsWindow"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A simple framework that allows to display touch events within your app demos."
   s.description      = "JVTouchEventsWindow is a simple helper framework to display touches events within your projects demos. It really comes handy when you want to show off your app and create a preview video/gif of your app."
   s.homepage         = "https://github.com/JV17/JVTouchEventsWindow-Pod"
