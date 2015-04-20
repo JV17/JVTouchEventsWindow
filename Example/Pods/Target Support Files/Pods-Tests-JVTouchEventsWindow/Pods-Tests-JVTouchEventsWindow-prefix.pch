@@ -3,4 +3,4 @@
 #endif
 
 #import "Pods-Tests-environment.h"
-#import <JVTouchEventsWindow/JVTouchEventsWindow-Prefix.pch>
+#import "JVTouchEventsWindow-Prefix.pch"

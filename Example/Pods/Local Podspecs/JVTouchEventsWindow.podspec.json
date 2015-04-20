@@ -22,6 +22,6 @@
       "Pod/Assets/*.png"
     ]
   },
-  "prefix_header_contents": "#import <JVTouchEventsWindow/JVTouchEventsWindow-Prefix.pch>",
+  "prefix_header_contents": "#import \"JVTouchEventsWindow-Prefix.pch\"",
   "public_header_files": "Pod/Classes/**/*.h"
 }
