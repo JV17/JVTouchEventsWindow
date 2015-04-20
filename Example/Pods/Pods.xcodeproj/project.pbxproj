@@ -87,6 +87,7 @@
 		A4B1136385903CC16BD8E2EE /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A5D2EA082D5D1DCCE3B71370 /* Pods-JVTouchEventsWindow-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVTouchEventsWindow-environment.h"; sourceTree = "<group>"; };
 		A730E9AB465E847955966928 /* Pods-Tests-JVTouchEventsWindow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-JVTouchEventsWindow.xcconfig"; path = "../Pods-Tests-JVTouchEventsWindow/Pods-Tests-JVTouchEventsWindow.xcconfig"; sourceTree = "<group>"; };
+		A86D7DD81AE5756700BC3CB3 /* JVTouchEventsWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JVTouchEventsWindow-Prefix.pch"; sourceTree = "<group>"; };
 		AA48C946BCCD231BBB3DF4DE /* libPods-JVTouchEventsWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JVTouchEventsWindow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30CC847FD26494067790C19 /* JVTouchEventsWindow.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVTouchEventsWindow.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DD3E2E8169376F3A795A8C /* JVTouchEventsWindow.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVTouchEventsWindow.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +99,6 @@
 		D96CF8D0F6613E71904DEAFA /* Pods-JVTouchEventsWindow-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVTouchEventsWindow-resources.sh"; sourceTree = "<group>"; };
 		DC21D23CE9EB168EE423991A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DCBB7FF41218DF419B255327 /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVTouchEventsWindow-JVTouchEventsWindow-dummy.m"; sourceTree = "<group>"; };
-		DCC48D0B7CBB779FA07200D1 /* JVTouchEventsWindow-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTouchEventsWindow-Prefix.pch"; sourceTree = "<group>"; };
 		E932E46E7E435F25AC605C73 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F176B1A5B7ACDAA87D7C3C6A /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVTouchEventsWindow-JVTouchEventsWindow-prefix.pch"; sourceTree = "<group>"; };
 		F524E9861498F71338427BBA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -176,11 +176,11 @@
 			children = (
 				9A4703207FC551EFAA78703B /* JVTouchEventsWindow.h */,
 				3E2411EDC942BABD9E0E0F2B /* JVTouchEventsWindow.m */,
-				DCC48D0B7CBB779FA07200D1 /* JVTouchEventsWindow-Prefix.pch */,
 				34351CE54949477DAF0A82C2 /* JVTouchHelper.h */,
 				482A9C157EA09FB624B26669 /* JVTouchHelper.m */,
 				01EA441AB6F34F55AB044689 /* JVTouchImageViewQueue.h */,
 				398BB34FB5C66A0390D3EC2D /* JVTouchImageViewQueue.m */,
+				A86D7DD81AE5756700BC3CB3 /* JVTouchEventsWindow-Prefix.pch */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
