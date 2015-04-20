@@ -25,6 +25,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Developed and tested using iOS8+
+
 ## Installation
 
 JVTouchEventsWindow is available through [CocoaPods](http://cocoapods.org). To install
@@ -34,9 +36,9 @@ it, simply add the following line to your Podfile:
 pod "JVTouchEventsWindow"
 ```
 
-## Author
+## Author & Support
 
-Jorge Valbuena, jorgevalbuena2@gmail.com
+Contact me if you find any bugs or potential room for improvements. Jorge Valbuena (@JV17), jorgevalbuena2@gmail.com. BTW! You are welcome to help in supporting this pod or making improvements to it.
 
 ## License
 
