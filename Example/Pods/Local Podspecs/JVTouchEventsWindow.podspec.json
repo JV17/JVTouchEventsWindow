@@ -2,14 +2,14 @@
   "name": "JVTouchEventsWindow",
   "version": "0.1.0",
   "summary": "A short description of JVTouchEventsWindow.",
-  "description": "                       An optional longer description of JVTouchEventsWindow\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JVTouchEventsWindow",
+  "description": "JVTouchEventsWindow is a simple helper framework to display touches events within your projects demos. It really comes handy when you want to show off your app and create a preview video/gif of your app.",
+  "homepage": "https://github.com/JV17/JVTouchEventsWindow",
   "license": "MIT",
   "authors": {
     "Jorge Valbuena": "jorgevalbuena2@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JVTouchEventsWindow.git",
+    "git": "https://github.com/JV17/JVTouchEventsWindow.git",
     "tag": "0.1.0"
   },
   "platforms": {

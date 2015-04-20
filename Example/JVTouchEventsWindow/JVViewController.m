@@ -18,6 +18,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, CGRectGetMidY(self.view.frame)-25, CGRectGetWidth(self.view.frame), 50)];
+    label.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:25];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor blackColor];
+    label.numberOfLines = 1;
+    label.text = @"Touch/Click Me!";
+    
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning
