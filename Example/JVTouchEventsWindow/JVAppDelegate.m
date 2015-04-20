@@ -46,14 +46,13 @@
 
 - (JVTouchEventsWindow *)window
 {
-    static JVTouchEventsWindow *window = nil;
-    
-    if(!window)
-    {
-        window = [[JVTouchEventsWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    }
-    
-    return window;
+    static JVTouchEventsWindow *sharedWindow = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedWindow = [[JVTouchEventsWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    });
+
+    return sharedWindow;
 }
 
 @end

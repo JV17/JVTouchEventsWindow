@@ -1,6 +1,5 @@
 # JVTouchEventsWindow
 
-[![CI Status](http://img.shields.io/travis/Jorge Valbuena/JVTouchEventsWindow.svg?style=flat)](https://travis-ci.org/Jorge Valbuena/JVTouchEventsWindow)
 [![Version](https://img.shields.io/cocoapods/v/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow)
 [![License](https://img.shields.io/cocoapods/l/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow)
 [![Platform](https://img.shields.io/cocoapods/p/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow)
@@ -8,6 +7,21 @@
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+* Now, go to your AppDelegate.m file and add this simple function
+
+```objc
+- (JVTouchEventsWindow *)window
+{
+    static JVTouchEventsWindow *sharedWindow = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedWindow = [[JVTouchEventsWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    });
+
+    return sharedWindow;
+}
+```
 
 ## Requirements
 

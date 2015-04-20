@@ -6,4 +6,4 @@
 //  Copyright (c) 2014 Jorge Valbuena. All rights reserved.
 //
 
-${TEST_EXAMPLE}
+
