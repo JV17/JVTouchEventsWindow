@@ -1,0 +1,14 @@
+PODS:
+  - JVTouchEventsWindow (0.1.0)
+
+DEPENDENCIES:
+  - JVTouchEventsWindow (from `../`)
+
+EXTERNAL SOURCES:
+  JVTouchEventsWindow:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JVTouchEventsWindow: fe8df257fbd235986bd093d176498637af762b8e
+
+COCOAPODS: 0.36.0
