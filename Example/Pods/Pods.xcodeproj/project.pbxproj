@@ -89,6 +89,7 @@
 		9A3C094C6FB00CF629EEC8EC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A131A6300788F0E2759C1976 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A6A2A38BB5BEF11B01521AF9 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A86D7DD91AE5765800BC3CB3 /* JVTouchEventsWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JVTouchEventsWindow-Prefix.pch"; sourceTree = "<group>"; };
 		A97B495670A1AD5895C3183E /* Pods-JVTouchEventsWindow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTouchEventsWindow.debug.xcconfig"; sourceTree = "<group>"; };
 		A9B134B028505ABF0B6A22F4 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
 		AF60E4D59066A43571D42FBC /* libPods-Tests-JVTouchEventsWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-JVTouchEventsWindow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,6 +189,7 @@
 				22CB70DD53E1889027788854 /* JVTouchHelper.m */,
 				5AB385EC0D23A866C49D40B8 /* JVTouchImageViewQueue.h */,
 				29A6B9B6DA31EC476D918079 /* JVTouchImageViewQueue.m */,
+				A86D7DD91AE5765800BC3CB3 /* JVTouchEventsWindow-Prefix.pch */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
