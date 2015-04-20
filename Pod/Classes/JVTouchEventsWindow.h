@@ -10,4 +10,5 @@
 
 @interface JVTouchEventsWindow : UIWindow
 
+
 @end

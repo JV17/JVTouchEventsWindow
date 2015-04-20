@@ -8,7 +8,7 @@
 
 #import "JVTouchImageViewQueue.h"
 
-#define TOUCH_IMAGE_NAME @"JVTouchImage.png"
+#define TOUCH_IMAGE @"JVTouchImage"
 
 
 @interface JVTouchImageViewQueue()
@@ -26,7 +26,7 @@
         self.backingArray = [[NSMutableArray alloc] init];
         for (NSUInteger i = 0; i < count; i++)
         {
-            UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:TOUCH_IMAGE_NAME]];
+            UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:TOUCH_IMAGE]];
             [self.backingArray addObject:imgView];
         }
     }
