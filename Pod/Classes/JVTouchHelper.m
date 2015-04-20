@@ -14,6 +14,11 @@
 
 @implementation JVTouchHelper
 
+/**
+ *  Handles getting the bundle resources of our project
+ *
+ *  @return a NSBundle to our project
+ */
 + (NSBundle *)myProjectResources
 {
     static dispatch_once_t onceToken;
@@ -33,6 +38,13 @@
     return bundle;
 }
 
+/**
+ *  Handles getting our assets from the bundle resources of our project
+ *
+ *  @param the name of the asset
+ *
+ *  @return an UIImage
+ */
 + (UIImage *)bundleImageNamed:(NSString *)name
 {
     UIImage *imageFromMainBundle = [UIImage imageNamed:name];

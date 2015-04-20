@@ -19,6 +19,17 @@
 
 @implementation JVTouchEventsWindow
 
+
+#pragma mark - Touch Events
+
+/**
+ *  Handles the UIWindow touch events, here we want to perform different operations
+ *  depending of the touch phase, like adding a new ImageView or removing last added
+ *
+ *  @param the touch event
+ *
+ *  @return n/a
+*/
 - (void)sendEvent:(UIEvent *)event
 {
     NSSet *touches = [event allTouches];
@@ -49,6 +60,16 @@
 }
 
 
+#pragma mark - Touch events helper functions
+
+/**
+ *  Handles the touch phase began state, here we want to set the new ImageView for 
+ *  the touch event
+ *
+ *  @param a touch
+ *
+ *  @return n/a
+*/
 - (void)touchBegan:(UITouch *)touch
 {
     UIImageView *touchImageView = [self.touchImageViewQueue popTouchImageView];
@@ -67,12 +88,28 @@
                      }];
 }
 
+/**
+ *  Handles the touch phase moved state, here we want to set the new ImageView within
+ *  our ImageView dictionary
+ *
+ *  @param a touch
+ *
+ *  @return n/a
+ */
 - (void)touchMoved:(UITouch *)touch
 {
     UIImageView *touchImageView = [self touchImageViewForTouch:touch];
     touchImageView.center = [touch locationInView:self];
 }
 
+/**
+ *  Handles the touch phase end/cancelled state, here we want to remove the ImageView
+ *  previously added
+ *
+ *  @param a touch
+ *
+ *  @return n/a
+ */
 - (void)touchEnded:(UITouch *)touch
 {
     UIImageView *touchImageView = [self touchImageViewForTouch:touch];
@@ -91,6 +128,15 @@
 }
 
 
+#pragma mark - ImageView helper functions
+
+/**
+ *  Helper function to get ImageViews from our dictionary
+ *
+ *  @param a touch
+ *
+ *  @return n/a
+ */
 - (UIImageView *)touchImageViewForTouch:(UITouch *)touch
 {
     NSString *touchStringHash = [NSString stringWithFormat:@"%lu", (unsigned long)[touch hash]];
@@ -98,6 +144,13 @@
     return self.touchImgViewsDict[touchStringHash];
 }
 
+/**
+ *  Helper function to set the ImageView in our dictionary
+ *
+ *  @param a Imageview and a touch
+ *
+ *  @return n/a
+ */
 - (void)setTouchImageView:(UIImageView *)imgView forTouch:(UITouch *)touch
 {
     NSString *touchStringHash = [NSString stringWithFormat:@"%lu", (unsigned long)[touch hash]];
@@ -105,6 +158,13 @@
     [self.touchImgViewsDict setObject:imgView forKey:touchStringHash];
 }
 
+/**
+ *  Helper function to remove ImageView from our dictionary
+ *
+ *  @param a touch
+ *
+ *  @return n/a
+ */
 - (void)removeTouchImageViewForTouch:(UITouch *)touch
 {
     NSString *touchStringHash = [NSString stringWithFormat:@"%lu", (unsigned long)[touch hash]];
@@ -115,6 +175,11 @@
 
 #pragma mark - Custom getters & setters
 
+/**
+ *  Lazy loading initializer for our touchImageViewQueue
+ *
+ *  @return a initialized JVTouchImageViewQueue
+ */
 - (JVTouchImageViewQueue *)touchImageViewQueue
 {
     if (!_touchImageViewQueue)
@@ -125,6 +190,11 @@
     return _touchImageViewQueue;
 }
 
+/**
+ *  Lazy loading initializer for our touchImgViewsDict
+ *
+ *  @return a initialized NSMutableDictionary
+ */
 - (NSMutableDictionary *)touchImgViewsDict
 {
     if (!_touchImageViewsDic)
