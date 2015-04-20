@@ -7,7 +7,6 @@
 //
 
 #import "JVTouchEventsWindow.h"
-#import "JVTouchImageViewQueue.h"
 
 
 @interface JVTouchEventsWindow ()

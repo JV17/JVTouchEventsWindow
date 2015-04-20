@@ -32,7 +32,8 @@ Pod::Spec.new do |s|
     'JVTouchEventsWindow' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.prefix_header_contents = '#import "JVTouchEventsWindow-Prefix.pch"'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

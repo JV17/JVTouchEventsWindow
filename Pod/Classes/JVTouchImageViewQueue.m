@@ -26,7 +26,7 @@
         self.backingArray = [[NSMutableArray alloc] init];
         for (NSUInteger i = 0; i < count; i++)
         {
-            UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:TOUCH_IMAGE]];
+            UIImageView *imgView = [[UIImageView alloc] initWithImage:[JVTouchHelper bundleImageNamed:TOUCH_IMAGE]];
             [self.backingArray addObject:imgView];
         }
     }

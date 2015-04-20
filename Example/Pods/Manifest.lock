@@ -6,9 +6,9 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   JVTouchEventsWindow:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  JVTouchEventsWindow: fe8df257fbd235986bd093d176498637af762b8e
+  JVTouchEventsWindow: 987644061e8c489847d826dee616d65e0432f281
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.36.4
