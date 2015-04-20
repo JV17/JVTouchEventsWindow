@@ -7,6 +7,8 @@
 //
 
 #import "JVTouchHelper.h"
+#import "JVTouchEventsWindow.h"
+
 
 #define RESOURCE_NAME @"JVTouchEventsWindow"
 

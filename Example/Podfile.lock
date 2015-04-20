@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JVTouchEventsWindow: 52a4b494aee8d5c4d4676e864fb24a0759573d54
+  JVTouchEventsWindow: 5259f51474fd1c640ea76ee9d2e52c4999e63389
 
 COCOAPODS: 0.36.4

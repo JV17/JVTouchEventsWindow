@@ -7,6 +7,7 @@
 //
 
 #import "JVTouchImageViewQueue.h"
+#import "JVTouchHelper.h"
 
 #define TOUCH_IMAGE @"JVTouchImage"
 
