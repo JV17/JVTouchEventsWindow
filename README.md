@@ -1,8 +1,6 @@
-# JVTouchEventsWindow
+# JVTouchEventsWindow [![Version](https://img.shields.io/cocoapods/v/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow) [![License](https://img.shields.io/cocoapods/l/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow) [![Platform](https://img.shields.io/cocoapods/p/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow)
 
-[![Version](https://img.shields.io/cocoapods/v/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow)
-[![License](https://img.shields.io/cocoapods/l/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow)
-[![Platform](https://img.shields.io/cocoapods/p/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow)
+JVTouchEventsWindow is a simple helper framework to display touch events within your projects/apps demos. It really comes handy when you want to show off your app and create a preview video/gif of your app.
 
 ## Preview 1 - Touch/Click Me!
 
