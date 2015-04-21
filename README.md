@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow)
 [![Platform](https://img.shields.io/cocoapods/p/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow)
 
-## Preview 1 - Menu with Background pic
+## Preview 1 - Touch/Click Me!
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=s0cec4tZ5Ug?autoplay=1" target="_blank">![screenshot-1](Previews/preview1.gif)</a>
 
