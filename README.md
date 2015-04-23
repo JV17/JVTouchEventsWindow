@@ -4,7 +4,7 @@ JVTouchEventsWindow is a simple helper framework to display touch events within 
 
 ## Preview 1 - Touch/Click Me!
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=s0cec4tZ5Ug?autoplay=1" target="_blank">![screenshot-1](Previews/preview1.gif)</a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=yNs673psFhE?autoplay=1" target="_blank">![screenshot-1](Previews/preview1.gif)</a>
 
 ## Usage
 
