@@ -9,15 +9,80 @@
 #import "JVTouchEventsWindow.h"
 #import "JVTouchImageViewQueue.h"
 
+
 @interface JVTouchEventsWindow ()
 
 @property (nonatomic, strong) JVTouchImageViewQueue *touchImageViewQueue;
 @property (nonatomic, strong) NSMutableDictionary *touchImageViewsDic;
 
+@property (nonatomic, strong) UIColor *color;
+@property (nonatomic) CGSize size;
+
 @end
 
 
 @implementation JVTouchEventsWindow
+
+#pragma mark - Initializers
+
+/**
+ *  Initializer for our JVTouchEventsWindow, which throws an exception to avoid the use of this initializer
+ *  instead use initWithFrame
+ *
+ *  @return an NSException
+ */
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    @throw [NSException exceptionWithName:NSGenericException
+                                   reason:@"Use the `initWithFrame:(CGRect)frame` method instead."
+                                 userInfo:nil];
+}
+
+/**
+ *  Initializer for our JVTouchEventsWindow with the screen bounds, default image color and default image size
+ *
+ *  @return an initialized JVTouchEventsWindow
+ */
+- (instancetype)init
+{
+    return [self initWithFrame:[UIScreen mainScreen].bounds
+                 andImageColor:[[UIColor lightGrayColor] colorWithAlphaComponent:0.7]
+                 withImageSize:CGSizeMake(40, 40)];
+}
+
+/**
+ *  Initializer for our JVTouchEventsWindow with screen bounds, default image color and default image size
+ *
+ *  @param a CGRect, which represents the screen bounds
+ *
+ *  @return an initialized JVTouchEventsWindow
+ */
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    return [self initWithFrame:frame
+                 andImageColor:[[UIColor lightGrayColor] colorWithAlphaComponent:0.7]
+                 withImageSize:CGSizeMake(40, 40)];
+}
+
+/**
+ *  Custom initializer for our JVTouchEventsWindow with the screen bounds, custom image color, custom image size
+ *
+ *  @param a CGRect, which represents the screen bounds
+ *  @param a UIColor, which represents the custom image color
+ *  @param a CGRect, which represents the custom image size
+ *
+ *  @return an initialized JVTouchEventsWindow
+ */
+- (instancetype)initWithFrame:(CGRect)frame andImageColor:(UIColor *)color withImageSize:(CGSize)size
+{
+    if (!(self = [super initWithFrame:frame]))
+        return nil;
+    
+    self.color = (color != nil) ? color : [[UIColor lightGrayColor] colorWithAlphaComponent:0.7];
+    self.size = (size.width != 0.0f || size.height != 0.0f) ? size : CGSizeMake(TOUCH_SIZE, TOUCH_SIZE);
+    
+    return self;
+}
 
 
 #pragma mark - Touch Events
@@ -184,7 +249,9 @@
 {
     if (!_touchImageViewQueue)
     {
-        _touchImageViewQueue = [[JVTouchImageViewQueue alloc] initWithTouchesCount:8];
+        _touchImageViewQueue = [[JVTouchImageViewQueue alloc] initWithTouchesCount:8
+                                                                     andImageColor:self.color
+                                                                     withImageSize:self.size];
     }
     
     return _touchImageViewQueue;

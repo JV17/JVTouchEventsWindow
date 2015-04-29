@@ -49,7 +49,9 @@
     static JVTouchEventsWindow *sharedWindow = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedWindow = [[JVTouchEventsWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        sharedWindow = [[JVTouchEventsWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]
+                                                    andImageColor:[[UIColor grayColor] colorWithAlphaComponent:0.7]
+                                                    withImageSize:CGSizeMake(40, 40)];
     });
 
     return sharedWindow;
