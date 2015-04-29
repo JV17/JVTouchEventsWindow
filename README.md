@@ -1,6 +1,6 @@
 # JVTouchEventsWindow [![Version](https://img.shields.io/cocoapods/v/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow) [![License](https://img.shields.io/cocoapods/l/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow) [![Platform](https://img.shields.io/cocoapods/p/JVTouchEventsWindow.svg?style=flat)](http://cocoapods.org/pods/JVTouchEventsWindow)
 
-JVTouchEventsWindow is a simple helper framework to display touch events within your projects/apps demos. It really comes handy when you want to show off your app and create a preview video/gif of your app.
+JVTouchEventsWindow is a simple helper framework to display touch events within your projects/apps demos, with easy customization. It really comes handy when you want to show off your app and create a preview video/gif of your app.
 
 ## Preview 1 - Touch/Click Me!
 
@@ -10,7 +10,7 @@ JVTouchEventsWindow is a simple helper framework to display touch events within 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-* Now, go to your AppDelegate.m file and add this simple function
+* Now, go to your AppDelegate.m file and add this simple function, where you can customize your touch event image with just changing the size and color
 
 ```objc
 - (JVTouchEventsWindow *)window
@@ -18,7 +18,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     static JVTouchEventsWindow *sharedWindow = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedWindow = [[JVTouchEventsWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        sharedWindow = [[JVTouchEventsWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]
+                                                    andImageColor:[[UIColor grayColor] colorWithAlphaComponent:0.7]
+                                                    withImageSize:CGSizeMake(40, 40)];
     });
 
     return sharedWindow;
