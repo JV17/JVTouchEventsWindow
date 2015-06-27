@@ -42,7 +42,7 @@ pod "JVTouchEventsWindow"
 
 ## Author & Support
 
-Contact me if you find any bugs or potential room for improvements. Jorge Valbuena (@JV17), jorgevalbuena2@gmail.com. BTW! You are welcome to help in supporting this pod or making improvements to it.
+Contact me if you find any bugs or potential room for improvements. Jorge Valbuena (@JV17), jorge.valbuena@jorgedeveloper.com. BTW! You are welcome to help in supporting this pod or making improvements to it.
 
 ## License
 
