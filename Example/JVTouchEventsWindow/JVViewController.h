@@ -10,8 +10,4 @@
 
 @interface JVViewController : UIViewController
 
-- (UIColor *)colorWithHexString:(NSString *)stringToConvert;
-
-- (UIColor *)colorWithRGBHex:(UInt32)hex;
-
 @end

@@ -6,10 +6,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
-
 Pod::Spec.new do |s|
   s.name             = "JVTouchEventsWindow"
-  s.version          = "0.1.2"
+  s.version          = "1.0"
   s.summary          = "A simple framework that allows to display touch events within your app demos."
   s.description      = "JVTouchEventsWindow is a simple helper framework to display touches events within your projects demos. It really comes handy when you want to show off your app and create a preview video/gif of your app."
   s.homepage         = "http://jv17.github.io/JVTouchEventsWindow"
@@ -17,17 +16,11 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Jorge Valbuena" => "jorgevalbuena2@gmail.com" }
   s.source           = { :git => "https://github.com/JV17/JVTouchEventsWindow.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/JustV17'
-
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '11.0'
   s.requires_arc = true
-
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'JVTouchEventsWindow' => ['Pod/Assets/*.png']
   }
-
   s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

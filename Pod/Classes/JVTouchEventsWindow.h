@@ -29,7 +29,8 @@
 /**
  *  Initializer for our JVTouchEventsWindow with screen bounds, default image color and default image size
  *
- *  @param a CGRect, which represents the screen bounds
+ *  @param frame
+        A CGRect, which represents the screen bounds
  *
  *  @return an initialized JVTouchEventsWindow
  */
@@ -38,9 +39,12 @@
 /**
  *  Custom initializer for our JVTouchEventsWindow with the screen bounds, custom image color, custom image size
  *
- *  @param a CGRect, which represents the screen bounds
- *  @param a UIColor, which represents the custom image color
- *  @param a CGRect, which represents the custom image size
+ *  @param frame
+        A CGRect, which represents the screen bounds
+ *  @param color
+        A UIColor, which represents the custom image color
+ *  @param size
+        A CGRect, which represents the custom image size
  *
  *  @return an initialized JVTouchEventsWindow
  */

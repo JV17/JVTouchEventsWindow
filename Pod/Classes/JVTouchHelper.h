@@ -22,7 +22,8 @@
 /**
  *  Handles getting our assets from the bundle resources of our project
  *
- *  @param the name of the asset
+ *  @param name
+        The name of the asset
  *
  *  @return an UIImage
  */
@@ -31,7 +32,8 @@
 /**
  *  Creates an UIImage from color, to use as the touch event image
  *
- *  @param the UIColor of the image
+ *  @param color
+        The UIColor of the image
  *
  *  @return an UIImage
  */
@@ -40,7 +42,8 @@
 /**
  *  Gets a NSString with the Hex color value and transforms it to a UIColor
  *
- *  @param the Hex color value as a NSString
+ *  @param stringToConvert
+        The Hex color value as a NSString
  *
  *  @return an UIColor
  */
@@ -49,7 +52,8 @@
 /**
  *  Gets a Hex color and transforms it to a UIColor using RGB
  *
- *  @param the Hex color value as an UInt32
+ *  @param hex
+        The Hex color value as an UInt32
  *
  *  @return an UIColor
  */

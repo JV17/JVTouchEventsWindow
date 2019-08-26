@@ -26,7 +26,8 @@
 /**
  *  Custom initializer for our JVTouchImageViewQueue with the queue size
  *
- *  @param a NSUInteger, which represents the size of our queue
+ *  @param count
+        A NSUInteger, which represents the size of our queue
  *
  *  @return an initialized instancetype
 */
@@ -35,9 +36,12 @@
 /**
  *  Custom initializer for our JVTouchImageViewQueue with the queue size, image color and image size
  *
- *  @param a NSUInteger, which represents the size of our queue
- *  @param a UIColor, which represents the color of our touches image
- *  @param a CGSize, which represents the size of our touches image
+ *  @param count
+        A NSUInteger, which represents the size of our queue
+ *  @param color
+        A UIColor, which represents the color of our touches image
+ *  @param size
+        A CGSize, which represents the size of our touches image
  *
  *  @return an initialized JVTouchImageViewQueue
  */
@@ -53,9 +57,8 @@
 /**
  *  A helper function to add ImageView to our queue
  *
- *  @param an UIImageView to be added to queue
- *
- *  @return n/a
+ *  @param touchImageView
+        An UIImageView to be added to queue
  */
 - (void)pushTouchImageView:(UIImageView *)touchImageView;
 

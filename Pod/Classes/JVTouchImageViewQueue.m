@@ -24,11 +24,6 @@
 
 #pragma mark - Custom initializer
 
-/**
- *  Initializer for our JVTouchImageViewQueue with the queue size, image color and image size
- *
- *  @return an initialized JVTouchImageViewQueue
- */
 - (instancetype)init
 {
     return [self initWithTouchesCount:TOUCH_COUNT
@@ -36,13 +31,6 @@
                         withImageSize:CGSizeMake(TOUCH_SIZE, TOUCH_SIZE)];
 }
 
-/**
- *  Custom initializer for our JVTouchImageViewQueue with the queue size, image color and image size
- *
- *  @param a NSUInteger, which represents the size of our queue
- *
- *  @return an initialized JVTouchImageViewQueue
- */
 - (instancetype)initWithTouchesCount:(NSUInteger)count
 {
     return [self initWithTouchesCount:count
@@ -50,15 +38,6 @@
                         withImageSize:CGSizeMake(TOUCH_SIZE, TOUCH_SIZE)];
 }
 
-/**
- *  Custom initializer for our JVTouchImageViewQueue with the queue size, image color and image size
- *
- *  @param a NSUInteger, which represents the size of our queue
- *  @param a UIColor, which represents the color of our touches image
- *  @param a CGSize, which represents the size of our touches image
- *
- *  @return an initialized JVTouchImageViewQueue
- */
 - (instancetype)initWithTouchesCount:(NSUInteger)count andImageColor:(UIColor *)color withImageSize:(CGSize)size
 {
     if (!(self = [super init]))
@@ -82,11 +61,6 @@
 
 #pragma mark - Custom getters & setters
 
-/**
- *  Custom getter, which creates an UIImage from an UIColor provided
- *
- *  @return an UIImage
- */
 - (UIImage *)image
 {
     if(!_image)
@@ -97,11 +71,6 @@
     return _image;
 }
 
-/**
- *  Custom getter, which creates an UIImageView with an UIImage and cornerRadius
- *
- *  @return an UIImageView
- */
 - (UIImageView *)createImageView
 {
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.size.width, self.size.height)];
@@ -117,11 +86,6 @@
 
 #pragma mark - Queue helper functions
 
-/**
- *  A helper function to remove ImageViews from our queue
- *
- *  @return the new queue without the removed ImageView
- */
 - (UIImageView *)popTouchImageView
 {
     UIImageView *touchImageView = [self.queueArray firstObject];
@@ -130,13 +94,6 @@
     return touchImageView;
 }
 
-/**
- *  A helper function to add ImageView to our queue
- *
- *  @param an UIImageView to be added to queue
- *
- *  @return n/a
- */
 - (void)pushTouchImageView:(UIImageView *)touchImageView
 {
     [self.queueArray addObject:touchImageView];

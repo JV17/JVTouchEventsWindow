@@ -14,11 +14,6 @@
 
 @implementation JVTouchHelper
 
-/**
- *  Handles getting the bundle resources of our project
- *
- *  @return a NSBundle to our project
- */
 + (NSBundle *)myProjectResources
 {
     static dispatch_once_t onceToken;
@@ -38,13 +33,6 @@
     return bundle;
 }
 
-/**
- *  Handles getting our assets from the bundle resources of our project
- *
- *  @param the name of the asset
- *
- *  @return an UIImage
- */
 + (UIImage *)bundleImageNamed:(NSString *)name
 {
     UIImage *imageFromMainBundle = [UIImage imageNamed:name];
@@ -63,13 +51,6 @@
     return imageFromBundle;
 }
 
-/**
- *  Creates an UIImage from color, to use as the touch event image
- *
- *  @param the UIColor of the image
- *
- *  @return an UIImage
- */
 + (UIImage *)imageWithColor:(UIColor *)color
 {
     CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
@@ -85,13 +66,6 @@
     return image;
 }
 
-/**
- *  Gets a NSString with the Hex color value and transforms it to a UIColor
- *
- *  @param the Hex color value as a NSString
- *
- *  @return an UIColor
- */
 + (UIColor *)colorWithHexString:(NSString *)stringToConvert
 {
     //converts the hex value into a colour
@@ -101,13 +75,6 @@
     return [self colorWithRGBHex:hexNum];
 }
 
-/**
- *  Gets a Hex color and transforms it to a UIColor using RGB
- *
- *  @param the Hex color value as an UInt32
- *
- *  @return an UIColor
- */
 + (UIColor *)colorWithRGBHex:(UInt32)hex
 {
     //converts a hex number into a colour

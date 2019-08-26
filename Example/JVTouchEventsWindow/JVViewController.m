@@ -8,10 +8,6 @@
 
 #import "JVViewController.h"
 
-@interface JVViewController ()
-
-@end
-
 @implementation JVViewController
 
 - (void)viewDidLoad
@@ -36,12 +32,6 @@
     label.text = @"Touch/Click Me!";
     
     [self.view addSubview:label];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

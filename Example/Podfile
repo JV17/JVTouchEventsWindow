@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'JVTouchEventsWindow', :exclusive => true do
+platform :ios, '11.0'
+
+target 'JVTouchEventsWindow' do
   pod "JVTouchEventsWindow", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod "JVTouchEventsWindow", :path => "../"
-
-  
 end

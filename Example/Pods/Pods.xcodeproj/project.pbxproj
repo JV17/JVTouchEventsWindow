@@ -7,890 +7,783 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01143927411A856A34058E91 /* JVTouchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5021411BB0F0A47F1EA3C3A0 /* JVTouchHelper.h */; };
-		0461D9529D93BFCAEF096DEC /* JVTouchImageViewQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927FE8C6683AD5CAFFB0DA8 /* JVTouchImageViewQueue.m */; };
-		0B40F155BA8FA2939ABD467F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4247E8654A779DF300BF42 /* Foundation.framework */; };
-		1277D6D5EEA449D0274D17D9 /* JVTouchEventsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 668B477E90BD71C7A7CD44C9 /* JVTouchEventsWindow.m */; };
-		2AB12B2EFFF11D45DB654A9A /* JVTouchEventsWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DE73300BA590442CFD9B94D9 /* JVTouchEventsWindow.h */; };
-		38A5ABF2C08711C34D54FFC7 /* JVTouchImageViewQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEB9B7E8D188A3DA82FECFF /* JVTouchImageViewQueue.h */; };
-		457003593A92BFC0ADD385AE /* Pods-Tests-JVTouchEventsWindow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2936E4687888840955F9C57 /* Pods-Tests-JVTouchEventsWindow-dummy.m */; };
-		4AD42AE026E3A0A221FA017C /* Pods-JVTouchEventsWindow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D60C8DA4954DA4B050ACF365 /* Pods-JVTouchEventsWindow-dummy.m */; };
-		4C3741520CCE532FDA45B067 /* JVTouchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB69CD2F77DE417108D2453 /* JVTouchImage@2x.png */; };
-		4C728C8FBDACE94F712F30AC /* JVTouchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2453C1488D8A636FBE80C232 /* JVTouchImage.png */; };
-		6D8206388292DC29DCDF51E6 /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 106FCD096157E966CB657653 /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-dummy.m */; };
-		72462EE928B06B82B68A8694 /* JVTouchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF839940D202E6B485B32828 /* JVTouchHelper.m */; };
-		9617FE524DD256A743FD6A7A /* JVTouchImageViewQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927FE8C6683AD5CAFFB0DA8 /* JVTouchImageViewQueue.m */; };
-		967D854A186640EB2B6589A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4247E8654A779DF300BF42 /* Foundation.framework */; };
-		AC6F4D97FF476476CC603FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4247E8654A779DF300BF42 /* Foundation.framework */; };
-		B02456B74BEEBA2980AC9C91 /* JVTouchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB69CD2F77DE417108D2453 /* JVTouchImage@2x.png */; };
-		B745B7B35AC18EDEE808B01D /* JVTouchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5021411BB0F0A47F1EA3C3A0 /* JVTouchHelper.h */; };
-		CC2209E8D615EBE2B96B386A /* JVTouchEventsWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DE73300BA590442CFD9B94D9 /* JVTouchEventsWindow.h */; };
-		CE766958D7A71FEA9FE9F1EE /* JVTouchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2453C1488D8A636FBE80C232 /* JVTouchImage.png */; };
-		D241588CDB6867B1A2F71899 /* JVTouchImageViewQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEB9B7E8D188A3DA82FECFF /* JVTouchImageViewQueue.h */; };
-		D379B816B8E4C202F598A2EF /* JVTouchEventsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 668B477E90BD71C7A7CD44C9 /* JVTouchEventsWindow.m */; };
-		E676C4BDE7352B4ECDFC9D17 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 869438E415D7D90E554EBE53 /* Pods-Tests-dummy.m */; };
-		E6D06F2ED4D76E0632FC8F21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4247E8654A779DF300BF42 /* Foundation.framework */; };
-		FECD749F9004E8EC6E1CF499 /* JVTouchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF839940D202E6B485B32828 /* JVTouchHelper.m */; };
+		322EE7D6CD0B4099E7079FDD594F0C42 /* JVTouchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5456AF8321919DBB5DDE24021C96862 /* JVTouchImage@2x.png */; };
+		399226ADE18880CBCB4B3951BF5BCB39 /* JVTouchEventsWindow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D250F18630D0F139A712996108FF716B /* JVTouchEventsWindow-dummy.m */; };
+		45EF583BC74FEED413E9FA95CDFE99C1 /* JVTouchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 43674634D479BB55E7CA54F3F306DC8B /* JVTouchImage.png */; };
+		54A79FC511E88E33B665BF699B8C460C /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDC6E129FC39A8BB16E8CD405050EB /* Pods-Tests-dummy.m */; };
+		5927451D78425AD247FC999E94ADDDAA /* JVTouchImageViewQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9D9D09C4ABC7AADDF965E88096BC74 /* JVTouchImageViewQueue.m */; };
+		8757A0E19E3EC64FDAD49F080D28A431 /* JVTouchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 88434B7464B7212F66017F6FB2244E70 /* JVTouchHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8AB9C368544BD614064C7FC952EF6E95 /* JVTouchEventsWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE340E8B7A65BC62DA2DED06183C53E /* JVTouchEventsWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		981EAD9B3E5042A0C588B5A3825E301D /* Pods-JVTouchEventsWindow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5D4B3367E192D6E780BE6D6DBDA09E /* Pods-JVTouchEventsWindow-dummy.m */; };
+		A5C8829DD3D6EE44FBAB7E3210D790BF /* JVTouchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ADF33E6AD0B1518EE10D364529FA92 /* JVTouchHelper.m */; };
+		B032C31BDC3D91C75E1E4DE52489EE9E /* JVTouchEventsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A81524CD8314F07B5400AB6B3FF5D63E /* JVTouchEventsWindow.m */; };
+		DF566A265A53BE5DF8CC4DC37FF43992 /* JVTouchImageViewQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D7634E65439A73A7459BE51E3A552FC5 /* JVTouchImageViewQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		12E2F720FE422B57DFF9B008 /* PBXContainerItemProxy */ = {
+		2D64B77AD9ADCB3349621E4E660DA4A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F91ACBCC0F8DE55CB45235F2 /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA014F78BCB1AF7E208E4C6E;
-			remoteInfo = "Pods-Tests-JVTouchEventsWindow-JVTouchEventsWindow";
+			remoteGlobalIDString = 50079CEE04B90E106059E22C7101561F;
+			remoteInfo = JVTouchEventsWindow;
 		};
-		6D76FA469734E43DC9A8624F /* PBXContainerItemProxy */ = {
+		482700E083907A5B1CD1E8B7649A0028 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F91ACBCC0F8DE55CB45235F2 /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 56AF13173C94CEA2AEE84791;
-			remoteInfo = "Pods-JVTouchEventsWindow-JVTouchEventsWindow";
+			remoteGlobalIDString = 50079CEE04B90E106059E22C7101561F;
+			remoteInfo = JVTouchEventsWindow;
 		};
-		87F7886E4F21436D8DEF83BE /* PBXContainerItemProxy */ = {
+		C3C6DE01886727B728F5187225FE5D2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F91ACBCC0F8DE55CB45235F2 /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3669243CD748E23FA38986CA;
-			remoteInfo = "Pods-Tests-JVTouchEventsWindow";
-		};
-		8AE221A168292E6FB602020D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F91ACBCC0F8DE55CB45235F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E0244FD91FF6ECA5B91EFEA;
-			remoteInfo = "Pods-JVTouchEventsWindow-JVTouchEventsWindow-JVTouchEventsWindow";
+			remoteGlobalIDString = 6A638EDF831C1AFDBFFE32AF61A5FEBF;
+			remoteInfo = "JVTouchEventsWindow-JVTouchEventsWindow";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0187C962F9213D554BDFA571 /* Pods-Tests-JVTouchEventsWindow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-JVTouchEventsWindow.xcconfig"; path = "../Pods-Tests-JVTouchEventsWindow/Pods-Tests-JVTouchEventsWindow.xcconfig"; sourceTree = "<group>"; };
-		0BA05659BE69A18D3EB2B68D /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		106FCD096157E966CB657653 /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVTouchEventsWindow-JVTouchEventsWindow-dummy.m"; sourceTree = "<group>"; };
-		1B41489A61030DF0CAEAF698 /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVTouchEventsWindow-JVTouchEventsWindow-prefix.pch"; sourceTree = "<group>"; };
-		232DE6038EDC407583DB236B /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2453C1488D8A636FBE80C232 /* JVTouchImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = JVTouchImage.png; sourceTree = "<group>"; };
-		2A8099BE0A2D9B77A25DEE97 /* JVTouchEventsWindow.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVTouchEventsWindow.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E1EED3698D15CF0C4B67128 /* Pods-JVTouchEventsWindow-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVTouchEventsWindow-resources.sh"; sourceTree = "<group>"; };
-		2E854F2B5193DE7104B5C02E /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2FEB9B7E8D188A3DA82FECFF /* JVTouchImageViewQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JVTouchImageViewQueue.h; sourceTree = "<group>"; };
-		4563F21FCCECDE6B03A0E0E9 /* Pods-Tests-JVTouchEventsWindow-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-JVTouchEventsWindow-Private.xcconfig"; path = "../Pods-Tests-JVTouchEventsWindow/Pods-Tests-JVTouchEventsWindow-Private.xcconfig"; sourceTree = "<group>"; };
-		4C4247E8654A779DF300BF42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5021411BB0F0A47F1EA3C3A0 /* JVTouchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JVTouchHelper.h; sourceTree = "<group>"; };
-		508B2C523CF3159EEB7050CC /* Pods-JVTouchEventsWindow-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVTouchEventsWindow-environment.h"; sourceTree = "<group>"; };
-		54EBE76A14C2F1CAC4BC10BF /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTouchEventsWindow-JVTouchEventsWindow-Private.xcconfig"; sourceTree = "<group>"; };
-		54F03F284B699A0EEC175959 /* Pods-JVTouchEventsWindow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTouchEventsWindow.release.xcconfig"; sourceTree = "<group>"; };
-		5EB69CD2F77DE417108D2453 /* JVTouchImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "JVTouchImage@2x.png"; sourceTree = "<group>"; };
-		668B477E90BD71C7A7CD44C9 /* JVTouchEventsWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JVTouchEventsWindow.m; sourceTree = "<group>"; };
-		7927FE8C6683AD5CAFFB0DA8 /* JVTouchImageViewQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JVTouchImageViewQueue.m; sourceTree = "<group>"; };
-		7E63BB8D6641DEB5978CF719 /* libPods-Tests-JVTouchEventsWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-JVTouchEventsWindow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8472CC7048D28583B6A373F7 /* Pods-JVTouchEventsWindow-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVTouchEventsWindow-acknowledgements.markdown"; sourceTree = "<group>"; };
-		85F76D2426A1DC3A4A01B49E /* Pods-Tests-JVTouchEventsWindow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-JVTouchEventsWindow-prefix.pch"; path = "../Pods-Tests-JVTouchEventsWindow/Pods-Tests-JVTouchEventsWindow-prefix.pch"; sourceTree = "<group>"; };
-		869438E415D7D90E554EBE53 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		9DB35014EA200E0830F36C43 /* libPods-JVTouchEventsWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JVTouchEventsWindow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A75AF0FA9C5E50143FC82E8C /* Pods-JVTouchEventsWindow-JVTouchEventsWindow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTouchEventsWindow-JVTouchEventsWindow.xcconfig"; sourceTree = "<group>"; };
-		B2936E4687888840955F9C57 /* Pods-Tests-JVTouchEventsWindow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-JVTouchEventsWindow-dummy.m"; path = "../Pods-Tests-JVTouchEventsWindow/Pods-Tests-JVTouchEventsWindow-dummy.m"; sourceTree = "<group>"; };
-		B42BB486C5A10A5A9619CCFD /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		BA0299037D6174FD89B3B83A /* libPods-JVTouchEventsWindow-JVTouchEventsWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JVTouchEventsWindow-JVTouchEventsWindow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C17603BE4E99DFAE629B87F5 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C46E80D8BC44C3207D97C0D9 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CEF5F9D03EB479F9DA539956 /* JVTouchEventsWindow.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVTouchEventsWindow.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D52BFDE53CFF2036B28EDCA7 /* Pods-JVTouchEventsWindow-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVTouchEventsWindow-acknowledgements.plist"; sourceTree = "<group>"; };
-		D60C8DA4954DA4B050ACF365 /* Pods-JVTouchEventsWindow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVTouchEventsWindow-dummy.m"; sourceTree = "<group>"; };
-		DB1B82463FF8A925E23A8F83 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE73300BA590442CFD9B94D9 /* JVTouchEventsWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JVTouchEventsWindow.h; sourceTree = "<group>"; };
-		E11CB6E5754668814FF708F5 /* Pods-JVTouchEventsWindow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTouchEventsWindow.debug.xcconfig"; sourceTree = "<group>"; };
-		EB545D1AE5D02008E1E8AA79 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EF839940D202E6B485B32828 /* JVTouchHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JVTouchHelper.m; sourceTree = "<group>"; };
+		2104EDCA1D56126BCC9CA81CAEEB85E2 /* JVTouchEventsWindow.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JVTouchEventsWindow.bundle; path = "JVTouchEventsWindow-JVTouchEventsWindow.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC3DA3FB1D35A6853AACCDF1EC3B7A3 /* Pods-JVTouchEventsWindow-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVTouchEventsWindow-resources.sh"; sourceTree = "<group>"; };
+		3D1EF0A0A43FB3ACAAAF772B68A3012E /* JVTouchEventsWindow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTouchEventsWindow-prefix.pch"; sourceTree = "<group>"; };
+		3EBDC6E129FC39A8BB16E8CD405050EB /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		3F3DE5DD3124C2B64D57005C7A78E2B6 /* libJVTouchEventsWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJVTouchEventsWindow.a; path = libJVTouchEventsWindow.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43674634D479BB55E7CA54F3F306DC8B /* JVTouchImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = JVTouchImage.png; path = Pod/Assets/JVTouchImage.png; sourceTree = "<group>"; };
+		55DBF1481417A18810881BB3FD540B51 /* ResourceBundle-JVTouchEventsWindow-JVTouchEventsWindow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JVTouchEventsWindow-JVTouchEventsWindow-Info.plist"; sourceTree = "<group>"; };
+		7B9D9D09C4ABC7AADDF965E88096BC74 /* JVTouchImageViewQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTouchImageViewQueue.m; path = Pod/Classes/JVTouchImageViewQueue.m; sourceTree = "<group>"; };
+		7D5D4B3367E192D6E780BE6D6DBDA09E /* Pods-JVTouchEventsWindow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVTouchEventsWindow-dummy.m"; sourceTree = "<group>"; };
+		7DCF1EBB877DA293244DDD909F564A86 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88434B7464B7212F66017F6FB2244E70 /* JVTouchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTouchHelper.h; path = Pod/Classes/JVTouchHelper.h; sourceTree = "<group>"; };
+		940C98A330E9DAD720D74EE9BAF1E602 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A81524CD8314F07B5400AB6B3FF5D63E /* JVTouchEventsWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTouchEventsWindow.m; path = Pod/Classes/JVTouchEventsWindow.m; sourceTree = "<group>"; };
+		B040ABB3B049BA5DDC5937D9A574F803 /* Pods-JVTouchEventsWindow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTouchEventsWindow.debug.xcconfig"; sourceTree = "<group>"; };
+		BB2B4AA7ABEB39C8F793E399AB990DDB /* Pods-JVTouchEventsWindow-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVTouchEventsWindow-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFE95A0B24A14C714C744F709A1D13A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CEE340E8B7A65BC62DA2DED06183C53E /* JVTouchEventsWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTouchEventsWindow.h; path = Pod/Classes/JVTouchEventsWindow.h; sourceTree = "<group>"; };
+		CF8D3678FA81C79A206D95989A8129A2 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D250F18630D0F139A712996108FF716B /* JVTouchEventsWindow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVTouchEventsWindow-dummy.m"; sourceTree = "<group>"; };
+		D2932EDB79B4D9AC8D9D0E2672C6D0FF /* Pods-JVTouchEventsWindow-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVTouchEventsWindow-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5456AF8321919DBB5DDE24021C96862 /* JVTouchImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "JVTouchImage@2x.png"; path = "Pod/Assets/JVTouchImage@2x.png"; sourceTree = "<group>"; };
+		D5AC7856198BB8A59C4D8D21BA416EE1 /* Pods-JVTouchEventsWindow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTouchEventsWindow.release.xcconfig"; sourceTree = "<group>"; };
+		D7634E65439A73A7459BE51E3A552FC5 /* JVTouchImageViewQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTouchImageViewQueue.h; path = Pod/Classes/JVTouchImageViewQueue.h; sourceTree = "<group>"; };
+		DB0442CA625D7DBE661B3024F4A16366 /* JVTouchEventsWindow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVTouchEventsWindow.xcconfig; sourceTree = "<group>"; };
+		DEFFD88D7B224F45DFADFFEFC32A2DFC /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		E6ADF33E6AD0B1518EE10D364529FA92 /* JVTouchHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTouchHelper.m; path = Pod/Classes/JVTouchHelper.m; sourceTree = "<group>"; };
+		EF4997C9CFB8AD7118245C3D9CED93C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F05F643C0F2C29B714EEF5C49C0EF63D /* libPods-JVTouchEventsWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JVTouchEventsWindow.a"; path = "libPods-JVTouchEventsWindow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1D2DD1186418C24EA6CADFF927EDB3 /* JVTouchEventsWindow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JVTouchEventsWindow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC6558DB003C2F8A3420DE524626DE11 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC95D668E217CFBB25845AA15162348B /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Tests.a"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15246B1B226A1ECEF90F77F9 /* Frameworks */ = {
+		07049E3AC17F56EC16565149677C73FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		200318D0A3CD1F2ED06A6B20 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC6F4D97FF476476CC603FB4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CA8A312FB5084D6851B822B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6D06F2ED4D76E0632FC8F21 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2348FCC641CD237EE8A870B /* Frameworks */ = {
+		6B6CC8D9BE82DF5B2FC74C184071ED0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3EE73941034744739196AF5 /* Frameworks */ = {
+		94BC1958AA4DA39141A50E24D0D855EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B40F155BA8FA2939ABD467F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F24EED2AADA5744E85BC8F03 /* Frameworks */ = {
+		D9ED828104678DA5A1B2D1B872271BC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				967D854A186640EB2B6589A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07AE18EA02D36EFD34627E3E /* Targets Support Files */ = {
+		01B083C0CCE95BE9F3E8D36DB54B1C4E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				640354DE94A4FE324ED48D1E /* Pods-JVTouchEventsWindow */,
-				486608DBA9F091C0A6969612 /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		15AD19C905861C7D5D9CF88A /* JVTouchEventsWindow */ = {
-			isa = PBXGroup;
-			children = (
-				D0F1F4DDE339CE3D6D522F10 /* Pod */,
-				F137D417D815FC6BFF02F186 /* Resources */,
-				392B3AE2DFCCA1ACE6BDAD2F /* Support Files */,
-			);
-			name = JVTouchEventsWindow;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2654CCB11AFA1D6871FA6F9D = {
-			isa = PBXGroup;
-			children = (
-				232DE6038EDC407583DB236B /* Podfile */,
-				39AC40A38C3A844F150513CF /* Development Pods */,
-				9C4E12BCED73F20C6B5C0846 /* Frameworks */,
-				A4E692094586E475946E6981 /* Products */,
-				07AE18EA02D36EFD34627E3E /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		2FA63BE19F4F84373B1589DB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				DE73300BA590442CFD9B94D9 /* JVTouchEventsWindow.h */,
-				668B477E90BD71C7A7CD44C9 /* JVTouchEventsWindow.m */,
-				5021411BB0F0A47F1EA3C3A0 /* JVTouchHelper.h */,
-				EF839940D202E6B485B32828 /* JVTouchHelper.m */,
-				2FEB9B7E8D188A3DA82FECFF /* JVTouchImageViewQueue.h */,
-				7927FE8C6683AD5CAFFB0DA8 /* JVTouchImageViewQueue.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		392B3AE2DFCCA1ACE6BDAD2F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A75AF0FA9C5E50143FC82E8C /* Pods-JVTouchEventsWindow-JVTouchEventsWindow.xcconfig */,
-				54EBE76A14C2F1CAC4BC10BF /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-Private.xcconfig */,
-				106FCD096157E966CB657653 /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-dummy.m */,
-				1B41489A61030DF0CAEAF698 /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-prefix.pch */,
-				0187C962F9213D554BDFA571 /* Pods-Tests-JVTouchEventsWindow.xcconfig */,
-				4563F21FCCECDE6B03A0E0E9 /* Pods-Tests-JVTouchEventsWindow-Private.xcconfig */,
-				B2936E4687888840955F9C57 /* Pods-Tests-JVTouchEventsWindow-dummy.m */,
-				85F76D2426A1DC3A4A01B49E /* Pods-Tests-JVTouchEventsWindow-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-JVTouchEventsWindow-JVTouchEventsWindow";
-			sourceTree = "<group>";
-		};
-		39AC40A38C3A844F150513CF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				15AD19C905861C7D5D9CF88A /* JVTouchEventsWindow */,
+				963298A10327C46D8F4AEEDB84CA8932 /* JVTouchEventsWindow */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		486608DBA9F091C0A6969612 /* Pods-Tests */ = {
+		23BCEDB66A9BE66AB866246E7D826A01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB545D1AE5D02008E1E8AA79 /* Pods-Tests-acknowledgements.markdown */,
-				C17603BE4E99DFAE629B87F5 /* Pods-Tests-acknowledgements.plist */,
-				869438E415D7D90E554EBE53 /* Pods-Tests-dummy.m */,
-				0BA05659BE69A18D3EB2B68D /* Pods-Tests-environment.h */,
-				B42BB486C5A10A5A9619CCFD /* Pods-Tests-resources.sh */,
-				C46E80D8BC44C3207D97C0D9 /* Pods-Tests.debug.xcconfig */,
-				2E854F2B5193DE7104B5C02E /* Pods-Tests.release.xcconfig */,
+				2104EDCA1D56126BCC9CA81CAEEB85E2 /* JVTouchEventsWindow.bundle */,
+				3F3DE5DD3124C2B64D57005C7A78E2B6 /* libJVTouchEventsWindow.a */,
+				F05F643C0F2C29B714EEF5C49C0EF63D /* libPods-JVTouchEventsWindow.a */,
+				FC95D668E217CFBB25845AA15162348B /* libPods-Tests.a */,
 			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		530324704C6936857A7E3906 /* Pod */ = {
+		255FA19049E329DC8712E798F9D9F6DA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				75D3DA52E709A9B060EE58BE /* Assets */,
+				43674634D479BB55E7CA54F3F306DC8B /* JVTouchImage.png */,
+				D5456AF8321919DBB5DDE24021C96862 /* JVTouchImage@2x.png */,
 			);
-			path = Pod;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		640354DE94A4FE324ED48D1E /* Pods-JVTouchEventsWindow */ = {
+		526D02620B439742CEA3039A27B30854 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8472CC7048D28583B6A373F7 /* Pods-JVTouchEventsWindow-acknowledgements.markdown */,
-				D52BFDE53CFF2036B28EDCA7 /* Pods-JVTouchEventsWindow-acknowledgements.plist */,
-				D60C8DA4954DA4B050ACF365 /* Pods-JVTouchEventsWindow-dummy.m */,
-				508B2C523CF3159EEB7050CC /* Pods-JVTouchEventsWindow-environment.h */,
-				2E1EED3698D15CF0C4B67128 /* Pods-JVTouchEventsWindow-resources.sh */,
-				E11CB6E5754668814FF708F5 /* Pods-JVTouchEventsWindow.debug.xcconfig */,
-				54F03F284B699A0EEC175959 /* Pods-JVTouchEventsWindow.release.xcconfig */,
+				62CCF0D06AABE0D3E91299AE07E491B5 /* Pods-JVTouchEventsWindow */,
+				7DDE5AA6887BB309E7D32DA889019067 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		62CCF0D06AABE0D3E91299AE07E491B5 /* Pods-JVTouchEventsWindow */ = {
+			isa = PBXGroup;
+			children = (
+				BB2B4AA7ABEB39C8F793E399AB990DDB /* Pods-JVTouchEventsWindow-acknowledgements.markdown */,
+				D2932EDB79B4D9AC8D9D0E2672C6D0FF /* Pods-JVTouchEventsWindow-acknowledgements.plist */,
+				7D5D4B3367E192D6E780BE6D6DBDA09E /* Pods-JVTouchEventsWindow-dummy.m */,
+				2FC3DA3FB1D35A6853AACCDF1EC3B7A3 /* Pods-JVTouchEventsWindow-resources.sh */,
+				B040ABB3B049BA5DDC5937D9A574F803 /* Pods-JVTouchEventsWindow.debug.xcconfig */,
+				D5AC7856198BB8A59C4D8D21BA416EE1 /* Pods-JVTouchEventsWindow.release.xcconfig */,
 			);
 			name = "Pods-JVTouchEventsWindow";
 			path = "Target Support Files/Pods-JVTouchEventsWindow";
 			sourceTree = "<group>";
 		};
-		75D3DA52E709A9B060EE58BE /* Assets */ = {
+		7DDE5AA6887BB309E7D32DA889019067 /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				2453C1488D8A636FBE80C232 /* JVTouchImage.png */,
-				5EB69CD2F77DE417108D2453 /* JVTouchImage@2x.png */,
+				7DCF1EBB877DA293244DDD909F564A86 /* Pods-Tests-acknowledgements.markdown */,
+				FC6558DB003C2F8A3420DE524626DE11 /* Pods-Tests-acknowledgements.plist */,
+				3EBDC6E129FC39A8BB16E8CD405050EB /* Pods-Tests-dummy.m */,
+				DEFFD88D7B224F45DFADFFEFC32A2DFC /* Pods-Tests-resources.sh */,
+				940C98A330E9DAD720D74EE9BAF1E602 /* Pods-Tests.debug.xcconfig */,
+				CF8D3678FA81C79A206D95989A8129A2 /* Pods-Tests.release.xcconfig */,
 			);
-			path = Assets;
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		9C4E12BCED73F20C6B5C0846 /* Frameworks */ = {
+		8A3CA36E342B7E715E7B83DE600983E7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAFD6F5CCE735B85A94BBE42 /* iOS */,
+				DB0442CA625D7DBE661B3024F4A16366 /* JVTouchEventsWindow.xcconfig */,
+				D250F18630D0F139A712996108FF716B /* JVTouchEventsWindow-dummy.m */,
+				3D1EF0A0A43FB3ACAAAF772B68A3012E /* JVTouchEventsWindow-prefix.pch */,
+				55DBF1481417A18810881BB3FD540B51 /* ResourceBundle-JVTouchEventsWindow-JVTouchEventsWindow-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JVTouchEventsWindow";
+			sourceTree = "<group>";
+		};
+		963298A10327C46D8F4AEEDB84CA8932 /* JVTouchEventsWindow */ = {
+			isa = PBXGroup;
+			children = (
+				CEE340E8B7A65BC62DA2DED06183C53E /* JVTouchEventsWindow.h */,
+				A81524CD8314F07B5400AB6B3FF5D63E /* JVTouchEventsWindow.m */,
+				88434B7464B7212F66017F6FB2244E70 /* JVTouchHelper.h */,
+				E6ADF33E6AD0B1518EE10D364529FA92 /* JVTouchHelper.m */,
+				D7634E65439A73A7459BE51E3A552FC5 /* JVTouchImageViewQueue.h */,
+				7B9D9D09C4ABC7AADDF965E88096BC74 /* JVTouchImageViewQueue.m */,
+				C0C384DC65AFBD8AE97A214F3E0A03A5 /* Pod */,
+				255FA19049E329DC8712E798F9D9F6DA /* Resources */,
+				8A3CA36E342B7E715E7B83DE600983E7 /* Support Files */,
+			);
+			name = JVTouchEventsWindow;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0C384DC65AFBD8AE97A214F3E0A03A5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D2DD1186418C24EA6CADFF927EDB3 /* JVTouchEventsWindow.podspec */,
+				EF4997C9CFB8AD7118245C3D9CED93C9 /* LICENSE */,
+				BFE95A0B24A14C714C744F709A1D13A0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				01B083C0CCE95BE9F3E8D36DB54B1C4E /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				23BCEDB66A9BE66AB866246E7D826A01 /* Products */,
+				526D02620B439742CEA3039A27B30854 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A4E692094586E475946E6981 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CEF5F9D03EB479F9DA539956 /* JVTouchEventsWindow.bundle */,
-				2A8099BE0A2D9B77A25DEE97 /* JVTouchEventsWindow.bundle */,
-				9DB35014EA200E0830F36C43 /* libPods-JVTouchEventsWindow.a */,
-				BA0299037D6174FD89B3B83A /* libPods-JVTouchEventsWindow-JVTouchEventsWindow.a */,
-				DB1B82463FF8A925E23A8F83 /* libPods-Tests.a */,
-				7E63BB8D6641DEB5978CF719 /* libPods-Tests-JVTouchEventsWindow.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D0F1F4DDE339CE3D6D522F10 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2FA63BE19F4F84373B1589DB /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		EAFD6F5CCE735B85A94BBE42 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4C4247E8654A779DF300BF42 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F137D417D815FC6BFF02F186 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				530324704C6936857A7E3906 /* Pod */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0012E9282F2E97A2FF3E6C73 /* Headers */ = {
+		66B9662D2997A97B8F622AB9C52D138E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC2209E8D615EBE2B96B386A /* JVTouchEventsWindow.h in Headers */,
-				B745B7B35AC18EDEE808B01D /* JVTouchHelper.h in Headers */,
-				D241588CDB6867B1A2F71899 /* JVTouchImageViewQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFD269900BB06739077FFE33 /* Headers */ = {
+		A3A97E1E8D0DD53EA7E55DFA2EFAC071 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB12B2EFFF11D45DB654A9A /* JVTouchEventsWindow.h in Headers */,
-				01143927411A856A34058E91 /* JVTouchHelper.h in Headers */,
-				38A5ABF2C08711C34D54FFC7 /* JVTouchImageViewQueue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F5630EAD3AC61B62E61B91851B1695 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB9C368544BD614064C7FC952EF6E95 /* JVTouchEventsWindow.h in Headers */,
+				8757A0E19E3EC64FDAD49F080D28A431 /* JVTouchHelper.h in Headers */,
+				DF566A265A53BE5DF8CC4DC37FF43992 /* JVTouchImageViewQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3669243CD748E23FA38986CA /* Pods-Tests-JVTouchEventsWindow */ = {
+		50079CEE04B90E106059E22C7101561F /* JVTouchEventsWindow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAF445B3575D2EFFEFAE28BD /* Build configuration list for PBXNativeTarget "Pods-Tests-JVTouchEventsWindow" */;
+			buildConfigurationList = D9A929035BE8245E71A337AF6B4E953D /* Build configuration list for PBXNativeTarget "JVTouchEventsWindow" */;
 			buildPhases = (
-				64E119FA939D87CBF0C45906 /* Sources */,
-				3CA8A312FB5084D6851B822B /* Frameworks */,
-				0012E9282F2E97A2FF3E6C73 /* Headers */,
+				E5F5630EAD3AC61B62E61B91851B1695 /* Headers */,
+				18C2A54B97C0B4A24387D329D40BB263 /* Sources */,
+				D9ED828104678DA5A1B2D1B872271BC2 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65AF3A1126CE84FBE6A24B08 /* PBXTargetDependency */,
+				D92775D53945F9D8DE21504668688019 /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests-JVTouchEventsWindow";
-			productName = "Pods-Tests-JVTouchEventsWindow";
-			productReference = 7E63BB8D6641DEB5978CF719 /* libPods-Tests-JVTouchEventsWindow.a */;
+			name = JVTouchEventsWindow;
+			productName = JVTouchEventsWindow;
+			productReference = 3F3DE5DD3124C2B64D57005C7A78E2B6 /* libJVTouchEventsWindow.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		56AF13173C94CEA2AEE84791 /* Pods-JVTouchEventsWindow-JVTouchEventsWindow */ = {
+		6A638EDF831C1AFDBFFE32AF61A5FEBF /* JVTouchEventsWindow-JVTouchEventsWindow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14DA3E27BF0E37C6058647FA /* Build configuration list for PBXNativeTarget "Pods-JVTouchEventsWindow-JVTouchEventsWindow" */;
+			buildConfigurationList = FC50C9FFE5C56AD2C8857C615A66D493 /* Build configuration list for PBXNativeTarget "JVTouchEventsWindow-JVTouchEventsWindow" */;
 			buildPhases = (
-				E76734FCFF2539D0726C3CF5 /* Sources */,
-				200318D0A3CD1F2ED06A6B20 /* Frameworks */,
-				DFD269900BB06739077FFE33 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14AD075A9FDD13692E9E4285 /* PBXTargetDependency */,
-			);
-			name = "Pods-JVTouchEventsWindow-JVTouchEventsWindow";
-			productName = "Pods-JVTouchEventsWindow-JVTouchEventsWindow";
-			productReference = BA0299037D6174FD89B3B83A /* libPods-JVTouchEventsWindow-JVTouchEventsWindow.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7E0244FD91FF6ECA5B91EFEA /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-JVTouchEventsWindow */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C870C12C40C73BE4978EBDDB /* Build configuration list for PBXNativeTarget "Pods-JVTouchEventsWindow-JVTouchEventsWindow-JVTouchEventsWindow" */;
-			buildPhases = (
-				4379AFCBB17E2B9C5F3E6FA9 /* Sources */,
-				15246B1B226A1ECEF90F77F9 /* Frameworks */,
-				E6CD3DDDBD4DF42D2C68FD06 /* Resources */,
+				5328ECDDC6D5A1AACF5B7C9CAFBE8A43 /* Sources */,
+				07049E3AC17F56EC16565149677C73FB /* Frameworks */,
+				360B2E4CEB9E4F542D4934CC91ADA5CB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-JVTouchEventsWindow-JVTouchEventsWindow-JVTouchEventsWindow";
-			productName = "Pods-JVTouchEventsWindow-JVTouchEventsWindow-JVTouchEventsWindow";
-			productReference = 2A8099BE0A2D9B77A25DEE97 /* JVTouchEventsWindow.bundle */;
+			name = "JVTouchEventsWindow-JVTouchEventsWindow";
+			productName = "JVTouchEventsWindow-JVTouchEventsWindow";
+			productReference = 2104EDCA1D56126BCC9CA81CAEEB85E2 /* JVTouchEventsWindow.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		7E9243CD0D411F9C7A9E42B1 /* Pods-Tests */ = {
+		958186CF7D75761173A23E66E0CCAF14 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E18DFB1E366C2E73BAC688EA /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = 42746C3A2374BF61A59F90B78764756E /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				2B64D0114587E7FC0E89D936 /* Sources */,
-				F24EED2AADA5744E85BC8F03 /* Frameworks */,
+				66B9662D2997A97B8F622AB9C52D138E /* Headers */,
+				AA25CD6AD8BB233D1B4380ABE454723B /* Sources */,
+				6B6CC8D9BE82DF5B2FC74C184071ED0A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A02285BC36F9447C8EC1D5A6 /* PBXTargetDependency */,
+				DDA969B95BBA49B465A1157F0561EEC1 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = DB1B82463FF8A925E23A8F83 /* libPods-Tests.a */;
+			productReference = FC95D668E217CFBB25845AA15162348B /* libPods-Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		DA014F78BCB1AF7E208E4C6E /* Pods-Tests-JVTouchEventsWindow-JVTouchEventsWindow */ = {
+		BDE5B1D0B8C44EA5BC19D0C05F31A05E /* Pods-JVTouchEventsWindow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2F851E3E4BF462C525A916D /* Build configuration list for PBXNativeTarget "Pods-Tests-JVTouchEventsWindow-JVTouchEventsWindow" */;
+			buildConfigurationList = EB4E27729892AE006DE0FD624A48CEC0 /* Build configuration list for PBXNativeTarget "Pods-JVTouchEventsWindow" */;
 			buildPhases = (
-				6D7D1F70C6158A05E73194EA /* Sources */,
-				D2348FCC641CD237EE8A870B /* Frameworks */,
-				159E331D8C73A8D3FA0DE361 /* Resources */,
+				A3A97E1E8D0DD53EA7E55DFA2EFAC071 /* Headers */,
+				7F33FAE62715F561F36AF3C82747F36C /* Sources */,
+				94BC1958AA4DA39141A50E24D0D855EB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-Tests-JVTouchEventsWindow-JVTouchEventsWindow";
-			productName = "Pods-Tests-JVTouchEventsWindow-JVTouchEventsWindow";
-			productReference = CEF5F9D03EB479F9DA539956 /* JVTouchEventsWindow.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		F8B48247484C70A5EDA393B2 /* Pods-JVTouchEventsWindow */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A1E849A45B43ACDDC05AF778 /* Build configuration list for PBXNativeTarget "Pods-JVTouchEventsWindow" */;
-			buildPhases = (
-				0D99E5000400A62F2A48DB22 /* Sources */,
-				E3EE73941034744739196AF5 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				963C5B2B64662614BF140072 /* PBXTargetDependency */,
+				5ADB7E06D4E74EEDFA99D339ACA7566C /* PBXTargetDependency */,
 			);
 			name = "Pods-JVTouchEventsWindow";
 			productName = "Pods-JVTouchEventsWindow";
-			productReference = 9DB35014EA200E0830F36C43 /* libPods-JVTouchEventsWindow.a */;
+			productReference = F05F643C0F2C29B714EEF5C49C0EF63D /* libPods-JVTouchEventsWindow.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F91ACBCC0F8DE55CB45235F2 /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = B3FBCA697EB23CF51324D159 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 2654CCB11AFA1D6871FA6F9D;
-			productRefGroup = A4E692094586E475946E6981 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 23BCEDB66A9BE66AB866246E7D826A01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8B48247484C70A5EDA393B2 /* Pods-JVTouchEventsWindow */,
-				56AF13173C94CEA2AEE84791 /* Pods-JVTouchEventsWindow-JVTouchEventsWindow */,
-				7E0244FD91FF6ECA5B91EFEA /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-JVTouchEventsWindow */,
-				7E9243CD0D411F9C7A9E42B1 /* Pods-Tests */,
-				3669243CD748E23FA38986CA /* Pods-Tests-JVTouchEventsWindow */,
-				DA014F78BCB1AF7E208E4C6E /* Pods-Tests-JVTouchEventsWindow-JVTouchEventsWindow */,
+				50079CEE04B90E106059E22C7101561F /* JVTouchEventsWindow */,
+				6A638EDF831C1AFDBFFE32AF61A5FEBF /* JVTouchEventsWindow-JVTouchEventsWindow */,
+				BDE5B1D0B8C44EA5BC19D0C05F31A05E /* Pods-JVTouchEventsWindow */,
+				958186CF7D75761173A23E66E0CCAF14 /* Pods-Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		159E331D8C73A8D3FA0DE361 /* Resources */ = {
+		360B2E4CEB9E4F542D4934CC91ADA5CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C728C8FBDACE94F712F30AC /* JVTouchImage.png in Resources */,
-				4C3741520CCE532FDA45B067 /* JVTouchImage@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6CD3DDDBD4DF42D2C68FD06 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE766958D7A71FEA9FE9F1EE /* JVTouchImage.png in Resources */,
-				B02456B74BEEBA2980AC9C91 /* JVTouchImage@2x.png in Resources */,
+				45EF583BC74FEED413E9FA95CDFE99C1 /* JVTouchImage.png in Resources */,
+				322EE7D6CD0B4099E7079FDD594F0C42 /* JVTouchImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D99E5000400A62F2A48DB22 /* Sources */ = {
+		18C2A54B97C0B4A24387D329D40BB263 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD42AE026E3A0A221FA017C /* Pods-JVTouchEventsWindow-dummy.m in Sources */,
+				399226ADE18880CBCB4B3951BF5BCB39 /* JVTouchEventsWindow-dummy.m in Sources */,
+				B032C31BDC3D91C75E1E4DE52489EE9E /* JVTouchEventsWindow.m in Sources */,
+				A5C8829DD3D6EE44FBAB7E3210D790BF /* JVTouchHelper.m in Sources */,
+				5927451D78425AD247FC999E94ADDDAA /* JVTouchImageViewQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B64D0114587E7FC0E89D936 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E676C4BDE7352B4ECDFC9D17 /* Pods-Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4379AFCBB17E2B9C5F3E6FA9 /* Sources */ = {
+		5328ECDDC6D5A1AACF5B7C9CAFBE8A43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64E119FA939D87CBF0C45906 /* Sources */ = {
+		7F33FAE62715F561F36AF3C82747F36C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D379B816B8E4C202F598A2EF /* JVTouchEventsWindow.m in Sources */,
-				72462EE928B06B82B68A8694 /* JVTouchHelper.m in Sources */,
-				0461D9529D93BFCAEF096DEC /* JVTouchImageViewQueue.m in Sources */,
-				457003593A92BFC0ADD385AE /* Pods-Tests-JVTouchEventsWindow-dummy.m in Sources */,
+				981EAD9B3E5042A0C588B5A3825E301D /* Pods-JVTouchEventsWindow-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D7D1F70C6158A05E73194EA /* Sources */ = {
+		AA25CD6AD8BB233D1B4380ABE454723B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E76734FCFF2539D0726C3CF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1277D6D5EEA449D0274D17D9 /* JVTouchEventsWindow.m in Sources */,
-				FECD749F9004E8EC6E1CF499 /* JVTouchHelper.m in Sources */,
-				9617FE524DD256A743FD6A7A /* JVTouchImageViewQueue.m in Sources */,
-				6D8206388292DC29DCDF51E6 /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-dummy.m in Sources */,
+				54A79FC511E88E33B665BF699B8C460C /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14AD075A9FDD13692E9E4285 /* PBXTargetDependency */ = {
+		5ADB7E06D4E74EEDFA99D339ACA7566C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-JVTouchEventsWindow-JVTouchEventsWindow-JVTouchEventsWindow";
-			target = 7E0244FD91FF6ECA5B91EFEA /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-JVTouchEventsWindow */;
-			targetProxy = 8AE221A168292E6FB602020D /* PBXContainerItemProxy */;
+			name = JVTouchEventsWindow;
+			target = 50079CEE04B90E106059E22C7101561F /* JVTouchEventsWindow */;
+			targetProxy = 2D64B77AD9ADCB3349621E4E660DA4A1 /* PBXContainerItemProxy */;
 		};
-		65AF3A1126CE84FBE6A24B08 /* PBXTargetDependency */ = {
+		D92775D53945F9D8DE21504668688019 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-JVTouchEventsWindow-JVTouchEventsWindow";
-			target = DA014F78BCB1AF7E208E4C6E /* Pods-Tests-JVTouchEventsWindow-JVTouchEventsWindow */;
-			targetProxy = 12E2F720FE422B57DFF9B008 /* PBXContainerItemProxy */;
+			name = "JVTouchEventsWindow-JVTouchEventsWindow";
+			target = 6A638EDF831C1AFDBFFE32AF61A5FEBF /* JVTouchEventsWindow-JVTouchEventsWindow */;
+			targetProxy = C3C6DE01886727B728F5187225FE5D2F /* PBXContainerItemProxy */;
 		};
-		963C5B2B64662614BF140072 /* PBXTargetDependency */ = {
+		DDA969B95BBA49B465A1157F0561EEC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-JVTouchEventsWindow-JVTouchEventsWindow";
-			target = 56AF13173C94CEA2AEE84791 /* Pods-JVTouchEventsWindow-JVTouchEventsWindow */;
-			targetProxy = 6D76FA469734E43DC9A8624F /* PBXContainerItemProxy */;
-		};
-		A02285BC36F9447C8EC1D5A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-JVTouchEventsWindow";
-			target = 3669243CD748E23FA38986CA /* Pods-Tests-JVTouchEventsWindow */;
-			targetProxy = 87F7886E4F21436D8DEF83BE /* PBXContainerItemProxy */;
+			name = JVTouchEventsWindow;
+			target = 50079CEE04B90E106059E22C7101561F /* JVTouchEventsWindow */;
+			targetProxy = 482700E083907A5B1CD1E8B7649A0028 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2DA714F9450A0C7DB0B38BC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = JVTouchEventsWindow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5D33F7762E439E2353DC877B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E854F2B5193DE7104B5C02E /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		5E7436444C08C3412391FDCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = JVTouchEventsWindow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		7585C9487D94B2C046C93C37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E11CB6E5754668814FF708F5 /* Pods-JVTouchEventsWindow.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9AAC3E7EC026ACAA4D40E4EC /* Debug */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		36BBB21112E3B64A9A202C7422864F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0442CA625D7DBE661B3024F4A16366 /* JVTouchEventsWindow.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JVTouchEventsWindow";
+				INFOPLIST_FILE = "Target Support Files/JVTouchEventsWindow/ResourceBundle-JVTouchEventsWindow-JVTouchEventsWindow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = JVTouchEventsWindow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		A3454B37BF91804C38A43D95 /* Release */ = {
+		7B2D2A035FC2C1C5BD7946998DC2BCC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940C98A330E9DAD720D74EE9BAF1E602 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89A1A50CCEB2EF65864E683A5C8744DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B040ABB3B049BA5DDC5937D9A574F803 /* Pods-JVTouchEventsWindow.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95ED5BA25FAECB8465FADD7D2A29E4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0442CA625D7DBE661B3024F4A16366 /* JVTouchEventsWindow.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JVTouchEventsWindow";
+				INFOPLIST_FILE = "Target Support Files/JVTouchEventsWindow/ResourceBundle-JVTouchEventsWindow-JVTouchEventsWindow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = JVTouchEventsWindow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C2CA2844D9E5B690152266E7049278B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AC7856198BB8A59C4D8D21BA416EE1 /* Pods-JVTouchEventsWindow.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AB0E0A74E97B7839680C7683 /* Debug */ = {
+		CAD3F065AD4E3F84D1CCCAD7CD5CD920 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C46E80D8BC44C3207D97C0D9 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = DB0442CA625D7DBE661B3024F4A16366 /* JVTouchEventsWindow.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JVTouchEventsWindow/JVTouchEventsWindow-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JVTouchEventsWindow;
+				PRODUCT_NAME = JVTouchEventsWindow;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD12310E370C150A1CEA02A9D20EBB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8D3678FA81C79A206D95989A8129A2 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B2F6C693222E18A817C4EE72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54F03F284B699A0EEC175959 /* Pods-JVTouchEventsWindow.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B85E427437A3D494C4F53E09 /* Debug */ = {
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4563F21FCCECDE6B03A0E0E9 /* Pods-Tests-JVTouchEventsWindow-Private.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-JVTouchEventsWindow/Pods-Tests-JVTouchEventsWindow-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		BE2FB3C447D2528C4B3C9881 /* Release */ = {
+		F0092D714E8D6D3C628D84275CCAD6C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4563F21FCCECDE6B03A0E0E9 /* Pods-Tests-JVTouchEventsWindow-Private.xcconfig */;
+			baseConfigurationReference = DB0442CA625D7DBE661B3024F4A16366 /* JVTouchEventsWindow.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-JVTouchEventsWindow/Pods-Tests-JVTouchEventsWindow-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JVTouchEventsWindow/JVTouchEventsWindow-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		CF297DF9026B1605EC149E00 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JVTouchEventsWindow;
 				PRODUCT_NAME = JVTouchEventsWindow;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		D9062F9FE37F7A866EB292BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54EBE76A14C2F1CAC4BC10BF /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JVTouchEventsWindow-JVTouchEventsWindow/Pods-JVTouchEventsWindow-JVTouchEventsWindow-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		ED6EA8367396044D8EB0F37B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54EBE76A14C2F1CAC4BC10BF /* Pods-JVTouchEventsWindow-JVTouchEventsWindow-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JVTouchEventsWindow-JVTouchEventsWindow/Pods-JVTouchEventsWindow-JVTouchEventsWindow-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		F5C2C66D9E4FAD2D576769C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = JVTouchEventsWindow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14DA3E27BF0E37C6058647FA /* Build configuration list for PBXNativeTarget "Pods-JVTouchEventsWindow-JVTouchEventsWindow" */ = {
+		42746C3A2374BF61A59F90B78764756E /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9062F9FE37F7A866EB292BB /* Debug */,
-				ED6EA8367396044D8EB0F37B /* Release */,
+				7B2D2A035FC2C1C5BD7946998DC2BCC2 /* Debug */,
+				DD12310E370C150A1CEA02A9D20EBB1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1E849A45B43ACDDC05AF778 /* Build configuration list for PBXNativeTarget "Pods-JVTouchEventsWindow" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7585C9487D94B2C046C93C37 /* Debug */,
-				B2F6C693222E18A817C4EE72 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3FBCA697EB23CF51324D159 /* Build configuration list for PBXProject "Pods" */ = {
+		D9A929035BE8245E71A337AF6B4E953D /* Build configuration list for PBXNativeTarget "JVTouchEventsWindow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AAC3E7EC026ACAA4D40E4EC /* Debug */,
-				A3454B37BF91804C38A43D95 /* Release */,
+				CAD3F065AD4E3F84D1CCCAD7CD5CD920 /* Debug */,
+				F0092D714E8D6D3C628D84275CCAD6C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C870C12C40C73BE4978EBDDB /* Build configuration list for PBXNativeTarget "Pods-JVTouchEventsWindow-JVTouchEventsWindow-JVTouchEventsWindow" */ = {
+		EB4E27729892AE006DE0FD624A48CEC0 /* Build configuration list for PBXNativeTarget "Pods-JVTouchEventsWindow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF297DF9026B1605EC149E00 /* Debug */,
-				2DA714F9450A0C7DB0B38BC3 /* Release */,
+				89A1A50CCEB2EF65864E683A5C8744DF /* Debug */,
+				C2CA2844D9E5B690152266E7049278B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E18DFB1E366C2E73BAC688EA /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		FC50C9FFE5C56AD2C8857C615A66D493 /* Build configuration list for PBXNativeTarget "JVTouchEventsWindow-JVTouchEventsWindow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB0E0A74E97B7839680C7683 /* Debug */,
-				5D33F7762E439E2353DC877B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EAF445B3575D2EFFEFAE28BD /* Build configuration list for PBXNativeTarget "Pods-Tests-JVTouchEventsWindow" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B85E427437A3D494C4F53E09 /* Debug */,
-				BE2FB3C447D2528C4B3C9881 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2F851E3E4BF462C525A916D /* Build configuration list for PBXNativeTarget "Pods-Tests-JVTouchEventsWindow-JVTouchEventsWindow" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E7436444C08C3412391FDCF /* Debug */,
-				F5C2C66D9E4FAD2D576769C2 /* Release */,
+				36BBB21112E3B64A9A202C7422864F30 /* Debug */,
+				95ED5BA25FAECB8465FADD7D2A29E4AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F91ACBCC0F8DE55CB45235F2 /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
